@@ -1,0 +1,10 @@
+.vbox_background_center{
+    -fx-background-image:url("../Images/background.png")
+}
+.vbox_background_right{
+    -fx-background-color: #3B5693;
+}
+
+.transparent{
+    -fx-background-color: #FFFFFF;
+}

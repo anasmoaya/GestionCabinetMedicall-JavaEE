@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="934.0" type="BorderPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="626.0" prefWidth="718.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="50.0" layoutY="60.0" prefHeight="130.0" prefWidth="238.0" style="-fx-background-radius: 12;" stylesheets="@Css/home.css" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="60.0">
+               <children>
+                  <Label layoutX="16.0" layoutY="17.0" style="-fx-font-size: 18px;" styleClass="title2" stylesheets="@Css/home.css" text="Revenus mensuels" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel Light" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="62.0" fitWidth="56.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/money-hite.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="131.0" layoutY="61.0" style="-fx-font-size: 30;" styleClass="title1" stylesheets="@Css/home.css" text="1800" textFill="WHITE" />
+                  <Label layoutX="196.0" layoutY="93.0" style="-fx-font-size: 18px;" styleClass="title2" stylesheets="@Css/home.css" text="DH" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel Light" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="linear-grad-to-bottom-left" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </Pane>
+            <Pane layoutX="348.0" layoutY="60.0" prefHeight="130.0" prefWidth="238.0" style="-fx-background-radius: 12;" stylesheets="@Css/home.css" AnchorPane.bottomAnchor="436.0" AnchorPane.leftAnchor="348.0" AnchorPane.rightAnchor="348.0" AnchorPane.topAnchor="60.0">
+               <children>
+                  <Label layoutX="16.0" layoutY="17.0" style="-fx-font-size: 18px;" styleClass="title2" stylesheets="@Css/home.css" text="Total Rendez vous" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel Light" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="62.0" fitWidth="56.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/schedule.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="131.0" layoutY="61.0" style="-fx-font-size: 30;" styleClass="title1" stylesheets="@Css/home.css" text="1800" textFill="WHITE" />
+                  <Label layoutX="196.0" layoutY="93.0" style="-fx-font-size: 18px;" styleClass="title2" stylesheets="@Css/home.css" text="RDV" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel Light" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="linear-grad-to-bottom-left2" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </Pane>
+            <Pane layoutX="647.0" layoutY="60.0" prefHeight="130.0" prefWidth="238.0" style="-fx-background-radius: 12;" stylesheets="@Css/home.css" AnchorPane.bottomAnchor="436.0" AnchorPane.leftAnchor="647.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="60.0">
+               <children>
+                  <Label layoutX="16.0" layoutY="17.0" style="-fx-font-size: 18px;" styleClass="title2" stylesheets="@Css/home.css" text="Total Des Patients" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel Light" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="62.0" fitWidth="56.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/Patient2.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="131.0" layoutY="61.0" style="-fx-font-size: 30;" styleClass="title1" stylesheets="@Css/home.css" text="1800" textFill="WHITE" />
+                  <Label layoutX="170.0" layoutY="93.0" style="-fx-font-size: 18px;" styleClass="title2" stylesheets="@Css/home.css" text="Patients" textFill="WHITE">
+                     <font>
+                        <Font name="Corbel Light" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="linear-grad-to-bottom-left3" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </Pane>
+            <TableView fx:id="tbd" layoutX="50.0" layoutY="279.0" prefHeight="319.0" prefWidth="837.0" stylesheets="@Css/Dash.css" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="47.0">
+              <columns>
+                <TableColumn fx:id="n" prefWidth="330.4000053405762" text="Nom" />
+                <TableColumn fx:id="d" prefWidth="289.5999755859375" text="Date" />
+                  <TableColumn fx:id="s" minWidth="0.0" prefWidth="154.40008544921875" text="Status" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <Label layoutX="50.0" layoutY="237.0" style="-fx-font-size: 23px;" styleClass="title1" stylesheets="@Css/home.css" text="Liste Des Rendez-Vous : " />
+            <Label layoutX="51.0" layoutY="14.0" style="-fx-font-size: 23px;" styleClass="title1" stylesheets="@Css/home.css" text="/Home" />
+         </children>
+      </AnchorPane>
+   </center>
+</fx:root>

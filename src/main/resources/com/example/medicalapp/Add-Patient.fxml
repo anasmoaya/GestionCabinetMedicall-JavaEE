@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="934.0" type="BorderPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="626.0" prefWidth="934.0" stylesheets="@Css/add-patient.css" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="nom" layoutX="176.0" layoutY="162.0" prefHeight="26.0" prefWidth="236.0" promptText="Veuillez saisir le Nom du patient" />
+            <TextField fx:id="cne" layoutX="176.0" layoutY="243.0" prefHeight="26.0" prefWidth="236.0" promptText="Veuillez saisir le CNE" />
+            <TextField fx:id="prenom" layoutX="504.0" layoutY="162.0" prefHeight="26.0" prefWidth="236.0" promptText="Veuillez saisir le prenom du patient" />
+            <TextField fx:id="age" layoutX="504.0" layoutY="243.0" prefHeight="26.0" prefWidth="236.0" promptText="Veuillez saisir l'age" />
+            <TextField fx:id="email" layoutX="176.0" layoutY="323.0" prefHeight="26.0" prefWidth="236.0" promptText="Veuillez saisir l'email" />
+            <TextField fx:id="tel" layoutX="504.0" layoutY="323.0" prefHeight="26.0" prefWidth="236.0" promptText="Veuilez saisir le tel" />
+            <Label layoutX="182.0" layoutY="139.0" text="Nom :" />
+            <Label layoutX="184.0" layoutY="224.0" text="CNE :" />
+            <Label layoutX="510.0" layoutY="224.0" text="Age :" />
+            <Label layoutX="180.0" layoutY="304.0" text="Email :" />
+            <Label layoutX="501.0" layoutY="304.0" text="Tel :" />
+            <Label layoutX="510.0" layoutY="139.0" text="Prenom :" />
+            <Button fx:id="addBtn" layoutX="179.0" layoutY="398.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="569.0" stylesheets="@Css/add-patient.css" text="Ajouter" AnchorPane.bottomAnchor="197.99999999999997" AnchorPane.leftAnchor="179.0" AnchorPane.rightAnchor="185.79999999999995" AnchorPane.topAnchor="398.0" />
+            <Label layoutX="174.0" layoutY="54.0" prefHeight="58.0" prefWidth="578.0" styleClass="title1" stylesheets="@Css/add-patient.css" text="Veullez saisir les informations du Patient" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="182.0" AnchorPane.topAnchor="54.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="192.0" fitWidth="332.0" layoutX="301.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/add_pa.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+</fx:root>

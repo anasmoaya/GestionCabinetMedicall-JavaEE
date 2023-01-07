@@ -1,0 +1,31 @@
+.text-field {
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-border-color: #3B5693;
+
+}
+
+.button
+{
+    -fx-background-radius: 12px;
+    -fx-background-color : #3895D3;
+    -fx-cursor: Hand;
+}
+.button:hover
+{
+    -fx-background-radius: 12px;
+    -fx-background-color : #D0E6FD ;
+}
+.button:pressed
+{
+    -fx-background-radius: 12px;
+    -fx-background-color : #FFFFFF ;
+}
+
+.label{
+    -fx-font-family: "Montserrat SemiBold";
+}
+.title1{
+    -fx-font-family: "Montserrat ExtraBold";
+    -fx-font-size: 32px;
+}

@@ -1,0 +1,3 @@
+rootProject.name = "medicalapp"
+//include ':backend'
+include ':backend'
